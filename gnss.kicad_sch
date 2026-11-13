@@ -955,55 +955,125 @@
 		)
 		(uuid "cab7d200-1baa-49da-9f76-b526de216f57")
 	)
-	(label "~{RESET}"
-		(at 118.11 105.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0f89e2d8-0034-4e24-af95-8eb9bb72e73f")
-	)
-	(label "EXTINT"
-		(at 118.11 100.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6ce64934-908e-49c4-b3c1-b1883bd406d5")
-	)
-	(label "~{SAFEBOOT}"
-		(at 118.11 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right top)
-		)
-		(uuid "89c6d39c-d9d7-45f5-803d-f0c81342e82b")
-	)
-	(label "RXD"
-		(at 118.11 85.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c6a5a148-1d66-4f05-b8d1-8a071385eeb1")
-	)
-	(label "TXD"
+	(global_label "TXD"
+		(shape output)
 		(at 118.11 87.63 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "d798667b-3f08-41f0-97b9-18efdc003718")
+		(uuid "11f1e745-7e06-4bd6-beb4-b7c6e28a13c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.6777 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "EXTINT"
+		(shape output)
+		(at 118.11 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "15539fe8-c15f-47f9-9d45-9ab2c4dace16")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.8958 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "~{RESET}"
+		(shape input)
+		(at 118.11 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "19e37fc5-471e-4d33-abda-b90a77828841")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.3797 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "~{SAFEBOOT}"
+		(shape input)
+		(at 118.11 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9a3c0b9b-5675-4281-acff-98463919142a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.6905 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "RXD"
+		(shape input)
+		(at 118.11 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b403cf28-8f5e-4557-9d94-1fca034de056")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.3753 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3V3")
