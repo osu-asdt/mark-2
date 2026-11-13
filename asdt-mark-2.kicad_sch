@@ -98,6 +98,52 @@
 		)
 	)
 	(sheet
+		(at 195.58 100.33)
+		(size 25.4 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "489d8e50-f64b-412d-8904-d025124c3726")
+		(property "Sheetname" "sensors"
+			(at 195.58 99.6184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 195.58 119.9646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "asdt-mark-2"
+				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 63.5 120.65)
 		(size 22.86 17.78)
 		(exclude_from_sim no)
