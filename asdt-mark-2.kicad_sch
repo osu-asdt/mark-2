@@ -98,6 +98,52 @@
 		)
 	)
 	(sheet
+		(at 198.12 90.17)
+		(size 35.56 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "43c51da1-563a-4e0d-ba2d-ee6db7c0cebc")
+		(property "Sheetname" "MCU"
+			(at 198.12 89.4584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 198.12 109.8046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "asdt-mark-2"
+				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 63.5 120.65)
 		(size 22.86 17.78)
 		(exclude_from_sim no)
