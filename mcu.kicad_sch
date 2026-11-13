@@ -5324,6 +5324,16 @@
 		)
 		(uuid "fea779bf-ebc7-4714-a11d-15b59f330ba4")
 	)
+	(label "IMU"
+		(at 267.97 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "01d00a5e-27b3-46ff-9f6e-e1d50e84d770")
+	)
 	(label "VREG_LX"
 		(at 201.93 25.4 270)
 		(effects
@@ -5404,6 +5414,26 @@
 		)
 		(uuid "4eeb1d75-5500-4102-a2a4-139f7d5bf112")
 	)
+	(label "Power"
+		(at 267.97 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "572d97b6-e60c-4e4a-a714-8189f2fc144f")
+	)
+	(label "Pyro"
+		(at 254 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5bfbbf74-b3b2-470c-9288-c2d121b1b053")
+	)
 	(label "VREG_VIN"
 		(at 199.39 25.4 270)
 		(effects
@@ -5433,6 +5463,16 @@
 			(justify left bottom)
 		)
 		(uuid "632455a4-591f-4e65-a511-626276279793")
+	)
+	(label "GNSS"
+		(at 254 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a98d886-41b4-4ad3-88f9-1866060cdc34")
 	)
 	(label "VREG_FB"
 		(at 105.41 31.75 0)
@@ -5504,6 +5544,16 @@
 		)
 		(uuid "b668cb5d-7603-4924-bfa2-47b379c97d9f")
 	)
+	(label "IMU"
+		(at 254 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb744d9d-2604-489b-a7e1-d838a3b791d7")
+	)
 	(label "SWCLK"
 		(at 132.08 151.13 180)
 		(effects
@@ -5553,6 +5603,116 @@
 			(justify right bottom)
 		)
 		(uuid "fcd4e3fd-822b-41e6-94c9-43fb1b523fd1")
+	)
+	(hierarchical_label "P1G"
+		(shape output)
+		(at 254 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1ad4bd1a-4a48-4a0c-9b6d-8cf37ffdf2aa")
+	)
+	(hierarchical_label "P1S"
+		(shape input)
+		(at 254 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2aaeb80c-6069-4282-aa50-a259f6175c92")
+	)
+	(hierarchical_label "P4G"
+		(shape output)
+		(at 254 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2fa57166-8f00-4765-a19f-6c910043b20b")
+	)
+	(hierarchical_label "IMU_CS"
+		(shape output)
+		(at 267.97 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "37eff78c-2331-40ed-9a09-6b8deda37611")
+	)
+	(hierarchical_label "P2S"
+		(shape input)
+		(at 254 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "41965f30-d37c-4763-be04-ce9061b1b6c9")
+	)
+	(hierarchical_label "P3S"
+		(shape input)
+		(at 254 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4d9d9550-1d28-405f-a728-6654f278826f")
+	)
+	(hierarchical_label "P2G"
+		(shape output)
+		(at 254 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a7f8e76f-57d2-4047-8a6e-133d4dbad175")
+	)
+	(hierarchical_label "IMU_INT1"
+		(shape output)
+		(at 267.97 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d6650091-aef5-4e72-81bf-9332c268b1f6")
+	)
+	(hierarchical_label "P3G"
+		(shape output)
+		(at 254 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e104488d-e24b-44a5-9afd-b9e5a4008cc1")
+	)
+	(hierarchical_label "P4S"
+		(shape input)
+		(at 254 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fd93edfa-589b-40e0-b553-4fc30802b59b")
 	)
 	(symbol
 		(lib_id "power:+3V3")
