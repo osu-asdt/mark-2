@@ -11,12 +11,13 @@
 		(comment 1 "Salman Aloud")
 	)
 	(lib_symbols
-		(symbol "Device:C"
+		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
 				(offset 0.254)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -24,7 +25,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 0.635 2.54 0)
+				(at 0.254 1.778 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -34,8 +35,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -46,7 +47,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -67,8 +68,8 @@
 					)
 				)
 			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -78,7 +79,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "cap capacitor"
+			(property "ki_keywords" "capacitor cap"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -100,13 +101,13 @@
 					)
 				)
 			)
-			(symbol "C_0_1"
+			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -115,10 +116,10 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -126,10 +127,10 @@
 					)
 				)
 			)
-			(symbol "C_1_1"
+			(symbol "C_Small_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
+					(at 0 2.54 270)
+					(length 2.032)
 					(name ""
 						(effects
 							(font
@@ -146,8 +147,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
+					(at 0 -2.54 90)
+					(length 2.032)
 					(name ""
 						(effects
 							(font
@@ -1214,7 +1215,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 100.33) (xy 170.18 87.63)
+			(xy 170.18 102.87) (xy 170.18 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1344,7 +1345,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 87.63) (xy 119.38 100.33)
+			(xy 119.38 87.63) (xy 119.38 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1481,6 +1482,88 @@
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/b5ca037a-4077-45e7-b3a7-62b31c79bcbc"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 170.18 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07a55689-f279-487d-bc1b-b5dce9aeda04")
+		(property "Reference" "C2"
+			(at 172.72 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 172.72 106.6799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 170.18 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "25b1fec9-4344-47bd-b032-a380b0b04f36")
+		)
+		(pin "1"
+			(uuid "0c9ef046-b5d6-490d-a07b-f0cc4ca3c031")
+		)
+		(instances
+			(project "power"
+				(path "/0d83d1f0-c03e-4628-b4dd-c615d81da529"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -1762,8 +1845,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 119.38 104.14 0)
+		(lib_id "Device:C_Small")
+		(at 119.38 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1772,6 +1855,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(uuid "67ba0e60-a7e2-4b9b-ab16-0cbe362f41e2")
+		(property "Reference" "C1"
+			(at 121.92 104.1399 0)
 		(uuid "601cb3a7-0893-40f3-8353-73e5333d332a")
 		(property "Reference" "C3"
 			(at 123.19 102.8699 0)
@@ -1785,7 +1871,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 123.19 105.4099 0)
+			(at 121.92 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1796,7 +1882,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.3452 107.95 0)
+			(at 119.38 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1807,7 +1893,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 104.14 0)
+			(at 119.38 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1817,8 +1903,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 119.38 104.14 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 119.38 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1829,21 +1915,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "ced208d1-b046-4e1d-8af8-cc9c9489200c")
+			(uuid "97097b8e-2819-4f05-b9e2-a3d2449896f3")
 		)
 		(pin "1"
-			(uuid "f2bfd1f2-4b85-48ef-a785-62511bf2d579")
+			(uuid "182d0bc6-9993-475e-93c5-5160d9381590")
 		)
 		(instances
 			(project "power"
 				(path "/0d83d1f0-c03e-4628-b4dd-c615d81da529"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-			(project "asdt-mark-2"
-				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/b5ca037a-4077-45e7-b3a7-62b31c79bcbc"
-					(reference "C3")
 					(unit 1)
 				)
 			)
