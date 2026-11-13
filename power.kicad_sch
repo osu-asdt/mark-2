@@ -1138,7 +1138,7 @@
 		)
 		(uuid "8b11a8ed-ffd6-4c5a-a47e-3b3e5cb53a6d")
 	)
-	(text "Notes:\n\nVin: \nRange = 3V-17V\nR3:\nRec to be +249K"
+	(text "Notes:\n\nVin: \nRange = 3V-17V\n\n"
 		(exclude_from_sim no)
 		(at 73.66 91.44 0)
 		(effects
@@ -1472,7 +1472,7 @@
 			(uuid "ffdacfbe-143d-4e70-a024-6acb4177c4af")
 		)
 		(instances
-			(project "Flight_Computer_Power"
+			(project "power"
 				(path "/0d83d1f0-c03e-4628-b4dd-c615d81da529"
 					(reference "#PWR03")
 					(unit 1)
@@ -1579,6 +1579,12 @@
 			(uuid "fdc9ef99-5784-4737-8d13-336cb31b212f")
 		)
 		(instances
+			(project "power"
+				(path "/0d83d1f0-c03e-4628-b4dd-c615d81da529"
+					(reference "U3")
+					(unit 1)
+				)
+			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/b5ca037a-4077-45e7-b3a7-62b31c79bcbc"
 					(reference "U3")
@@ -1657,7 +1663,7 @@
 			(uuid "b34797a7-216d-4823-95c1-65f4a1953f35")
 		)
 		(instances
-			(project "Flight_Computer_Power"
+			(project "power"
 				(path "/0d83d1f0-c03e-4628-b4dd-c615d81da529"
 					(reference "#PWR07")
 					(unit 1)
@@ -1741,7 +1747,7 @@
 			(uuid "f075967a-db53-48b3-8fa8-923aed33cec6")
 		)
 		(instances
-			(project "Flight_Computer_Power"
+			(project "power"
 				(path "/0d83d1f0-c03e-4628-b4dd-c615d81da529"
 					(reference "#PWR01")
 					(unit 1)
@@ -1767,7 +1773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "601cb3a7-0893-40f3-8353-73e5333d332a")
-		(property "Reference" "C3"
+		(property "Reference" "C1"
 			(at 123.19 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1829,7 +1835,7 @@
 			(uuid "f2bfd1f2-4b85-48ef-a785-62511bf2d579")
 		)
 		(instances
-			(project "Flight_Computer_Power"
+			(project "power"
 				(path "/0d83d1f0-c03e-4628-b4dd-c615d81da529"
 					(reference "C1")
 					(unit 1)
@@ -1913,7 +1919,7 @@
 			(uuid "848c39e6-aceb-42ae-86a1-4e6b7e3622c6")
 		)
 		(instances
-			(project "Flight_Computer_Power"
+			(project "power"
 				(path "/0d83d1f0-c03e-4628-b4dd-c615d81da529"
 					(reference "#PWR09")
 					(unit 1)
@@ -1939,7 +1945,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d157603-92d6-400a-b688-82fdce1ea8a7")
-		(property "Reference" "R1"
+		(property "Reference" "R3"
 			(at 129.54 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1950,7 +1956,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "250k"
+		(property "Value" "40.2k"
 			(at 129.54 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2001,7 +2007,7 @@
 			(uuid "1569e3d9-db05-47e6-b945-f21eb3d26cd2")
 		)
 		(instances
-			(project "Flight_Computer_Power"
+			(project "power"
 				(path "/0d83d1f0-c03e-4628-b4dd-c615d81da529"
 					(reference "R3")
 					(unit 1)
@@ -2027,7 +2033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a2e0c37-f961-411b-9848-c1b7ecd48617")
-		(property "Reference" "C4"
+		(property "Reference" "C2"
 			(at 173.99 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2089,7 +2095,7 @@
 			(uuid "6a2113d1-779a-4922-8aae-fdc0876f778e")
 		)
 		(instances
-			(project "Flight_Computer_Power"
+			(project "power"
 				(path "/0d83d1f0-c03e-4628-b4dd-c615d81da529"
 					(reference "C2")
 					(unit 1)
@@ -2173,7 +2179,7 @@
 			(uuid "8010fddd-582d-40d5-9f07-a9f9ea957856")
 		)
 		(instances
-			(project "Flight_Computer_Power"
+			(project "power"
 				(path "/0d83d1f0-c03e-4628-b4dd-c615d81da529"
 					(reference "#PWR05")
 					(unit 1)
@@ -2257,7 +2263,7 @@
 			(uuid "836a8182-8016-4203-8dc4-ae1bfb1bf6f6")
 		)
 		(instances
-			(project "Flight_Computer_Power"
+			(project "power"
 				(path "/0d83d1f0-c03e-4628-b4dd-c615d81da529"
 					(reference "#PWR02")
 					(unit 1)
@@ -2343,7 +2349,7 @@
 			(uuid "bf9d62a5-1c1f-47a3-88b8-a0a6523fc1d9")
 		)
 		(instances
-			(project "Flight_Computer_Power"
+			(project "power"
 				(path "/0d83d1f0-c03e-4628-b4dd-c615d81da529"
 					(reference "L1")
 					(unit 1)
@@ -2427,7 +2433,7 @@
 			(uuid "0d99adcc-5a35-4107-a1d8-35d8382c49dd")
 		)
 		(instances
-			(project "Flight_Computer_Power"
+			(project "power"
 				(path "/0d83d1f0-c03e-4628-b4dd-c615d81da529"
 					(reference "#PWR04")
 					(unit 1)
@@ -2441,4 +2447,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
