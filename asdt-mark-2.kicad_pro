@@ -432,7 +432,7 @@
         "uuid": "5368797f-237a-4d14-9f10-8bf9eb89d255"
       }
     ],
-    "used_designators": "#PWR8,#PWR10,#PWR14-17,AE1,C1-4,J1,L1,Q1,R1-4,TPS6290x1,U1-3",
+    "used_designators": "#PWR8,#PWR10,#PWR14-17,AE1,C1-7,C26-28,J1,L1,Q1,R1-4,TPS6290x1,U1-6",
     "variants": []
   },
   "sheets": [
@@ -455,6 +455,14 @@
     [
       "bf009304-62d8-434a-97e7-f0d8d849dd79",
       "Pyro"
+    ],
+    [
+      "43c51da1-563a-4e0d-ba2d-ee6db7c0cebc",
+      "MCU"
+    ],
+    [
+      "a688f671-f2c8-446f-9e08-d5d8e9b11cd2",
+      "Sensors"
     ]
   ],
   "text_variables": {},
