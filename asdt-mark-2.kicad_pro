@@ -432,7 +432,7 @@
         "uuid": "5368797f-237a-4d14-9f10-8bf9eb89d255"
       }
     ],
-    "used_designators": "#PWR8,#PWR10,#PWR14-17,AE1,C1-4,J1,L1,Q1,R1-4,TPS6290x1,U1-3",
+    "used_designators": "#PWR8,#PWR10,#PWR14-17,AE1,C1-7,J1,L1,Q1,R1-4,TPS6290x1,U1-5",
     "variants": []
   },
   "sheets": [
@@ -455,6 +455,10 @@
     [
       "bf009304-62d8-434a-97e7-f0d8d849dd79",
       "Pyro"
+    ],
+    [
+      "489d8e50-f64b-412d-8904-d025124c3726",
+      "sensors"
     ]
   ],
   "text_variables": {},
