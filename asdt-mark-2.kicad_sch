@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 146.05 67.31)
+		(at 59.69 88.9)
 		(size 34.29 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "0272362d-3105-491f-8f60-64796397745a")
 		(property "Sheetname" "GNSS"
-			(at 146.05 66.5984 0)
+			(at 59.69 88.1884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "gnss.kicad_sch"
-			(at 146.05 88.2146 0)
+			(at 59.69 109.8046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -89,6 +89,26 @@
 				(justify left top)
 			)
 		)
+		(pin "IMU_CS" input
+			(at 59.69 64.77 180)
+			(uuid "882c9454-942a-4180-821e-0c1c9e2cf707")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMU_INT1" input
+			(at 59.69 68.58 180)
+			(uuid "2a24221b-b8e6-4701-b2a2-dfef0e18da42")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255"
@@ -98,7 +118,7 @@
 		)
 	)
 	(sheet
-		(at 198.12 90.17)
+		(at 29.21 114.3)
 		(size 35.56 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -114,7 +134,7 @@
 		)
 		(uuid "43c51da1-563a-4e0d-ba2d-ee6db7c0cebc")
 		(property "Sheetname" "MCU"
-			(at 198.12 89.4584 0)
+			(at 29.21 113.5884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -125,7 +145,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 198.12 109.8046 0)
+			(at 29.21 133.9346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -144,53 +164,7 @@
 		)
 	)
 	(sheet
-		(at 195.58 123.19)
-		(size 30.48 17.78)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "a688f671-f2c8-446f-9e08-d5d8e9b11cd2")
-		(property "Sheetname" "Sensors"
-			(at 195.58 122.4784 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "sensors.kicad_sch"
-			(at 195.58 141.5546 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "asdt-mark-2"
-				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 63.5 120.65)
+		(at 104.14 59.69)
 		(size 22.86 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -206,7 +180,7 @@
 		)
 		(uuid "b5ca037a-4077-45e7-b3a7-62b31c79bcbc")
 		(property "Sheetname" "Power"
-			(at 63.5 119.9384 0)
+			(at 104.14 58.9784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -217,7 +191,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 63.5 139.0146 0)
+			(at 104.14 78.0546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -236,8 +210,8 @@
 		)
 	)
 	(sheet
-		(at 135.89 120.65)
-		(size 26.67 17.78)
+		(at 29.21 59.69)
+		(size 26.67 40.64)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -252,7 +226,7 @@
 		)
 		(uuid "bf009304-62d8-434a-97e7-f0d8d849dd79")
 		(property "Sheetname" "Pyro"
-			(at 135.89 119.9384 0)
+			(at 29.21 58.9784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -263,7 +237,7 @@
 			)
 		)
 		(property "Sheetfile" "pyro.kicad_sch"
-			(at 135.89 139.0146 0)
+			(at 29.21 100.9146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -271,6 +245,86 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "P1G" input
+			(at 29.21 62.23 180)
+			(uuid "f1f2508f-6bfe-4810-ac32-1c2e2cdb4132")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P1S" output
+			(at 29.21 64.77 180)
+			(uuid "1ec24aa6-1750-4a51-8e8f-33c994a181f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P2G" input
+			(at 29.21 67.31 180)
+			(uuid "38d3b082-f85b-4da2-bd6c-da6866d0fd70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P2S" output
+			(at 29.21 69.85 180)
+			(uuid "5b54fdfe-3f9f-48e6-8121-991ed7501540")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P3G" input
+			(at 29.21 72.39 180)
+			(uuid "a56ddd21-7bbe-40cf-8140-8ca54614f70b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P3S" output
+			(at 29.21 74.93 180)
+			(uuid "508da03c-6809-4cb2-a08d-0420effaf2e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P4G" input
+			(at 29.21 77.47 180)
+			(uuid "a37f215a-4e94-41a2-be25-2d44e9c2dc03")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P4S" output
+			(at 29.21 80.01 180)
+			(uuid "2b476563-b913-4a55-880c-82e5a72b77f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

@@ -432,7 +432,7 @@
         "uuid": "5368797f-237a-4d14-9f10-8bf9eb89d255"
       }
     ],
-    "used_designators": "#PWR8,#PWR10,#PWR14-17,AE1,C1-7,C26-28,J1,L1,Q1,R1-4,TPS6290x1,U1-6",
+    "used_designators": "#FLG2-5,#GND1,#PWR8,#PWR10,#PWR14-17,#PWR24,#PWR27-28,#PWR30,#PWR45-62,AE1,C1-28,J1-4,L1-3,Q1,R1-4,R14-20,SW1-2,TPS6290x1,U1-6,Y1-2",
     "variants": []
   },
   "sheets": [
@@ -459,10 +459,6 @@
     [
       "43c51da1-563a-4e0d-ba2d-ee6db7c0cebc",
       "MCU"
-    ],
-    [
-      "a688f671-f2c8-446f-9e08-d5d8e9b11cd2",
-      "Sensors"
     ]
   ],
   "text_variables": {},
