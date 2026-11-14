@@ -1017,7 +1017,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5045ced8-c4f1-467a-ad13-8c13eda523fd")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR06"
 			(at 134.62 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -1077,7 +1077,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/0272362d-3105-491f-8f60-64796397745a"
-					(reference "#PWR01")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -1237,7 +1237,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de9a9d9d-afbf-4bd1-ad96-8e468c0767bf")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR07"
 			(at 139.7 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -1297,7 +1297,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/0272362d-3105-491f-8f60-64796397745a"
-					(reference "#PWR02")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)

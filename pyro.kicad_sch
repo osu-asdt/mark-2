@@ -2133,7 +2133,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0be25ab6-95f4-449e-8304-1637b3d62e19")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR021"
 			(at 193.04 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -2193,7 +2193,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/bf009304-62d8-434a-97e7-f0d8d849dd79"
-					(reference "#PWR012")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -2211,7 +2211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "167eb2ab-6dab-4b0b-8edc-8161fda9a5f1")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR023"
 			(at 245.11 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -2271,7 +2271,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/bf009304-62d8-434a-97e7-f0d8d849dd79"
-					(reference "#PWR013")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -2535,7 +2535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52fbde0c-1acc-4900-b8ee-7972691c0c42")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR018"
 			(at 133.35 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -2595,7 +2595,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/bf009304-62d8-434a-97e7-f0d8d849dd79"
-					(reference "#PWR015")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -2613,7 +2613,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d60291c-bed1-4df1-a7e2-b3ec6c638d9c")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR017"
 			(at 100.33 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -2673,7 +2673,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/bf009304-62d8-434a-97e7-f0d8d849dd79"
-					(reference "#PWR010")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -2776,7 +2776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "624d46de-2f02-498f-bd9a-dbf022c342ed")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR020"
 			(at 179.07 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -2836,7 +2836,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/bf009304-62d8-434a-97e7-f0d8d849dd79"
-					(reference "#PWR016")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -2936,7 +2936,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "627608b7-c8ca-4a07-8efc-f00150f936c2")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR019"
 			(at 147.32 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -2996,7 +2996,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/bf009304-62d8-434a-97e7-f0d8d849dd79"
-					(reference "#PWR011")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -3014,7 +3014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "638474a0-2eca-43a9-a32a-4b326e73cd34")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR016"
 			(at 86.36 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -3074,7 +3074,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/bf009304-62d8-434a-97e7-f0d8d849dd79"
-					(reference "#PWR014")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -3506,7 +3506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90048218-f259-43cc-acd7-5a8b3ec18d25")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR022"
 			(at 231.14 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -3566,7 +3566,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/bf009304-62d8-434a-97e7-f0d8d849dd79"
-					(reference "#PWR017")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -3765,7 +3765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c317198f-b5d5-4ac7-91c5-929668941532")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR015"
 			(at 78.74 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -3825,7 +3825,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/bf009304-62d8-434a-97e7-f0d8d849dd79"
-					(reference "#PWR08")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)

@@ -99,7 +99,7 @@
 				(justify left)
 			)
 		)
-		(pin "IMU_INT1" input
+		(pin "IMU_INT1" output
 			(at 59.69 68.58 180)
 			(uuid "2a24221b-b8e6-4701-b2a2-dfef0e18da42")
 			(effects
@@ -331,6 +331,52 @@
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.01 119.38)
+		(size 21.59 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f8722589-a347-456c-844a-d31dfd5a28da")
+		(property "Sheetname" "Sensors"
+			(at 80.01 118.6684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 80.01 135.2046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "asdt-mark-2"
+				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255"
+					(page "7")
 				)
 			)
 		)

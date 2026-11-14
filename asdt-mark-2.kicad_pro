@@ -382,12 +382,66 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "digikey",
+          "name": "digikey",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field6",
+          "name": "Field6",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Amperage",
+          "name": "Amperage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S3.3",
+          "name": "KLC_S3.3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S4.1",
+          "name": "KLC_S4.1",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -432,7 +486,7 @@
         "uuid": "5368797f-237a-4d14-9f10-8bf9eb89d255"
       }
     ],
-    "used_designators": "#FLG2-5,#GND1,#PWR8,#PWR10,#PWR14-17,#PWR24,#PWR27-28,#PWR30,#PWR45-62,AE1,C1-28,J1-4,L1-3,Q1,R1-4,R14-20,SW1-2,TPS6290x1,U1-6,Y1-2",
+    "used_designators": "#FLG1-5,#GND1,#PWR1-64,AE1,C1-29,J1-4,L1-3,Q1-4,R1-20,SW1-3,TPS6290x1,U1-6,Y1-2",
     "variants": []
   },
   "sheets": [
@@ -459,6 +513,10 @@
     [
       "43c51da1-563a-4e0d-ba2d-ee6db7c0cebc",
       "MCU"
+    ],
+    [
+      "f8722589-a347-456c-844a-d31dfd5a28da",
+      "Sensors"
     ]
   ],
   "text_variables": {},
