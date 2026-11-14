@@ -5322,17 +5322,6 @@
 		)
 		(uuid "2aaeb80c-6069-4282-aa50-a259f6175c92")
 	)
-	(hierarchical_label "P4G"
-		(shape output)
-		(at 279.4 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2fa57166-8f00-4765-a19f-6c910043b20b")
-	)
 	(hierarchical_label "IMU_CS"
 		(shape output)
 		(at 293.37 48.26 0)
@@ -5398,17 +5387,6 @@
 			(justify left)
 		)
 		(uuid "e104488d-e24b-44a5-9afd-b9e5a4008cc1")
-	)
-	(hierarchical_label "P4S"
-		(shape input)
-		(at 279.4 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fd93edfa-589b-40e0-b553-4fc30802b59b")
 	)
 	(symbol
 		(lib_id "power:+3V3")

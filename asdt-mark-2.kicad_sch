@@ -195,26 +195,6 @@
 				(justify left)
 			)
 		)
-		(pin "P4G" input
-			(at 29.21 77.47 180)
-			(uuid "a37f215a-4e94-41a2-be25-2d44e9c2dc03")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "P4S" output
-			(at 29.21 80.01 180)
-			(uuid "2b476563-b913-4a55-880c-82e5a72b77f7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255"

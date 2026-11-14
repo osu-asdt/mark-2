@@ -1538,7 +1538,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS6290x"
+		(property "Value" "TPS62902"
 			(at 142.24 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
