@@ -486,21 +486,13 @@
         "uuid": "5368797f-237a-4d14-9f10-8bf9eb89d255"
       }
     ],
-    "used_designators": "#FLG1-5,#GND1,#PWR1-65,AE1,C1-29,J1-4,L1-3,Q1-4,R1-20,SW1-3,TPS6290x1,U1-6,Y1-2",
+    "used_designators": "#FLG1-5,#GND1,#PWR1-66,AE1,C1-29,J1-4,L1-3,Q1-4,R1-20,SW1-3,TPS6290x1,U1-6,Y1-2",
     "variants": []
   },
   "sheets": [
     [
       "5368797f-237a-4d14-9f10-8bf9eb89d255",
       "asdt-mark-2"
-    ],
-    [
-      "0d336f15-4e9f-4c23-81dd-6b5e8e594158",
-      "IMU"
-    ],
-    [
-      "0272362d-3105-491f-8f60-64796397745a",
-      "GNSS"
     ],
     [
       "b5ca037a-4077-45e7-b3a7-62b31c79bcbc",
