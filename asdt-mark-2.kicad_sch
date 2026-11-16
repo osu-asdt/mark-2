@@ -52,6 +52,52 @@
 		)
 	)
 	(sheet
+		(at 118.11 114.3)
+		(size 20.32 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4a3900dc-f1aa-425b-9300-e91c733965af")
+		(property "Sheetname" "Radio"
+			(at 118.11 113.5884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "radio.kicad_sch"
+			(at 118.11 131.3946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "asdt-mark-2"
+				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 104.14 59.69)
 		(size 22.86 17.78)
 		(exclude_from_sim no)
