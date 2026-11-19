@@ -2072,6 +2072,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VBUS"
 			(power global)
 			(pin_numbers
@@ -2225,7 +2340,7 @@
 		)
 		(uuid "8b11a8ed-ffd6-4c5a-a47e-3b3e5cb53a6d")
 	)
-	(text "Notes:\n\nVin: 3V-17V (Regulator Range)\n\nTODO:\nSelect D1/D2 Schottky diodes\nConnect VBAT_SENSE to MCU ADC"
+	(text "Notes:\n\nVin: 3V-17V (Regulator Range)\n\nTODO:\nSelect D2/D4 Schottky diodes\nConnect VBAT_SENSE to MCU ADC"
 		(exclude_from_sim no)
 		(at 30.48 49.53 0)
 		(effects
@@ -2236,6 +2351,12 @@
 			(justify left)
 		)
 		(uuid "83ea0ed9-660e-40d9-81c2-b4adbdf93fe4")
+	)
+	(junction
+		(at 111.76 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e0444e5-3db6-4607-8165-409bd5afb4d3")
 	)
 	(junction
 		(at 119.38 83.82)
@@ -2256,7 +2377,7 @@
 		(uuid "5a6f1519-8466-438e-b092-bf70ed5ab990")
 	)
 	(junction
-		(at 105.41 87.63)
+		(at 109.22 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8330f038-7599-408d-828b-0403518ada35")
@@ -2278,6 +2399,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b943e161-5ef4-4bcf-8f30-40ed09f1ef23")
+	)
+	(junction
+		(at 143.51 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6f6b4a3-4ae4-401c-bf80-d62146dcadff")
 	)
 	(junction
 		(at 187.96 87.63)
@@ -2307,7 +2434,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 87.63) (xy 105.41 97.79)
+			(xy 109.22 87.63) (xy 109.22 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2327,16 +2454,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 97.79) (xy 106.68 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10aa3b37-976c-4dc5-b9af-d69f5f85dc82")
-	)
-	(wire
-		(pts
 			(xy 179.07 87.63) (xy 180.34 87.63)
 		)
 		(stroke
@@ -2344,6 +2461,16 @@
 			(type default)
 		)
 		(uuid "1e7327f6-cf62-4270-91ee-8996c8ba8e62")
+	)
+	(wire
+		(pts
+			(xy 129.54 87.63) (xy 143.51 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26dfb65e-c35b-4e79-9803-3cbe95be22e6")
 	)
 	(wire
 		(pts
@@ -2527,6 +2654,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 97.79) (xy 106.68 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a6b00e3-ca9b-457e-b53f-1ffd984f9f17")
+	)
+	(wire
+		(pts
 			(xy 180.34 87.63) (xy 187.96 87.63)
 		)
 		(stroke
@@ -2647,16 +2784,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 87.63) (xy 143.51 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd459022-ee9a-4f16-8905-b4231d46e7fb")
-	)
-	(wire
-		(pts
 			(xy 88.9 87.63) (xy 87.63 87.63)
 		)
 		(stroke
@@ -2685,16 +2812,6 @@
 		)
 		(uuid "f3a96c0e-e8c6-41bb-81ca-49e8e1975d10")
 	)
-	(label "VBAT_SENSE"
-		(at 116.84 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2b7837ac-9e58-45ea-9923-5fc696a52d4c")
-	)
 	(label "VBAT_RAW"
 		(at 77.47 87.63 0)
 		(effects
@@ -2714,6 +2831,30 @@
 			(justify left bottom)
 		)
 		(uuid "dd0dcad4-9948-43bf-80d7-2ad1621c2e4d")
+	)
+	(global_label "VBAT_SENSE"
+		(shape output)
+		(at 116.84 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ff308250-d676-4ffe-8c3b-8d3ee0242f21")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.2551 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3019,7 +3160,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ASDT_Footprints:QFN_902RPJR_TEX"
 			(at 156.21 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -3693,6 +3834,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 143.51 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "658a74d8-4beb-4cff-a643-8cdcd3eaaaa6")
+		(property "Reference" "#FLG04"
+			(at 143.51 85.725 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 143.51 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 143.51 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "137b834a-bb3b-42e7-9c39-3f0be21ddb0c")
+		)
+		(instances
+			(project "asdt-mark-2"
+				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/b5ca037a-4077-45e7-b3a7-62b31c79bcbc"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 129.54 93.98 0)
 		(unit 1)
@@ -4194,7 +4413,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a4c24525-6bbe-4bd6-ba70-4657745a8786")
-		(property "Reference" "D1"
+		(property "Reference" "D4"
 			(at 101.9175 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4256,7 +4475,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/b5ca037a-4077-45e7-b3a7-62b31c79bcbc"
-					(reference "D1")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -4274,7 +4493,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a61de613-df46-4826-8308-eb0764a6eabf")
-		(property "Reference" "R13"
+		(property "Reference" "R23"
 			(at 96.52 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4338,7 +4557,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/b5ca037a-4077-45e7-b3a7-62b31c79bcbc"
-					(reference "R13")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -4537,6 +4756,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 111.76 85.09 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca8cfd9b-811e-49a5-b59b-921c21be82a2")
+		(property "Reference" "#FLG03"
+			(at 109.855 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 107.95 85.0899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 111.76 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "080094e1-8fc1-4793-af52-29aee0d15ebb")
+		)
+		(instances
+			(project "asdt-mark-2"
+				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/b5ca037a-4077-45e7-b3a7-62b31c79bcbc"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 111.76 118.11 0)
 		(unit 1)
@@ -4704,7 +5002,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e49fbe28-c7eb-44ec-9b45-dda373295404")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 69.85 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4768,7 +5066,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/b5ca037a-4077-45e7-b3a7-62b31c79bcbc"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)

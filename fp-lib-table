@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "ASDT_Footprints") (type "KiCad") (uri "${KIPRJMOD}/ASDT_Footprints.pretty") (options "") (descr ""))
+)
