@@ -488,7 +488,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "ASDT_Footprints"
+    ],
     "pinned_symbol_libs": [
       "mark-2-syms"
     ]
@@ -689,6 +691,18 @@
           "label": "KLC_S4.2_VREG_LX",
           "name": "KLC_S4.2_VREG_LX",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part#",
+          "name": "LCSC Part#",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -739,7 +753,7 @@
         "uuid": "5368797f-237a-4d14-9f10-8bf9eb89d255"
       }
     ],
-    "used_designators": "#FLG1-5,#GND1,#PWR1-71,AE1,C1-30,D1,J1-4,L1-3,Q1-4,R1-20,SW1-3,TPS6290x1,U1-8,Y1-2",
+    "used_designators": "#FLG1-5,#GND1,#PWR1-74,AE1,C1-30,D1,J1-4,L1-3,Q1-4,R1-22,SW1-3,TPS6290x1,U1-8,Y1-2",
     "variants": []
   },
   "sheets": [
