@@ -1364,7 +1364,7 @@
 		(uuid "5dc52bba-414a-4888-be76-24c82ccf5e93")
 	)
 	(hierarchical_label "BUSY"
-		(shape input)
+		(shape output)
 		(at 130.81 105.41 180)
 		(effects
 			(font
@@ -1375,7 +1375,7 @@
 		(uuid "bf483ab3-f215-43d1-8535-b1158bfc856f")
 	)
 	(hierarchical_label "RADIO_INT"
-		(shape input)
+		(shape output)
 		(at 163.83 107.95 0)
 		(effects
 			(font

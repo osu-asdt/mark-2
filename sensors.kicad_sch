@@ -3653,7 +3653,7 @@
 		(uuid "d9342187-f729-4e1f-960f-69ede8791213")
 	)
 	(hierarchical_label "EXTINT"
-		(shape output)
+		(shape input)
 		(at 166.37 74.93 180)
 		(effects
 			(font

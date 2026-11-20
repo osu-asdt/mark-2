@@ -52,8 +52,8 @@
 		)
 	)
 	(sheet
-		(at 118.11 114.3)
-		(size 20.32 16.51)
+		(at 166.37 102.87)
+		(size 20.32 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -68,7 +68,7 @@
 		)
 		(uuid "4a3900dc-f1aa-425b-9300-e91c733965af")
 		(property "Sheetname" "Radio"
-			(at 118.11 113.5884 0)
+			(at 166.37 102.1584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +79,7 @@
 			)
 		)
 		(property "Sheetfile" "radio.kicad_sch"
-			(at 118.11 131.3946 0)
+			(at 166.37 113.6146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -87,6 +87,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "BUSY" output
+			(at 166.37 104.14 180)
+			(uuid "4b7b707c-ea15-477d-a038-549348233c9e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RADIO_CS" input
+			(at 166.37 106.68 180)
+			(uuid "21e84a93-f046-40c5-9d33-102c73c698e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RADIO_INT" output
+			(at 166.37 109.22 180)
+			(uuid "e9a740a9-8af2-4cca-8a52-f152248e0f0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RADIO_RST" input
+			(at 166.37 111.76 180)
+			(uuid "7ac8c2d0-3d61-473c-9a1e-58f920be6241")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -144,8 +184,8 @@
 		)
 	)
 	(sheet
-		(at 29.21 59.69)
-		(size 26.67 40.64)
+		(at 166.37 74.93)
+		(size 20.32 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -160,7 +200,7 @@
 		)
 		(uuid "bf009304-62d8-434a-97e7-f0d8d849dd79")
 		(property "Sheetname" "Pyro"
-			(at 29.21 58.9784 0)
+			(at 166.37 74.2184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -171,7 +211,7 @@
 			)
 		)
 		(property "Sheetfile" "pyro.kicad_sch"
-			(at 29.21 100.9146 0)
+			(at 166.37 95.8346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -182,7 +222,7 @@
 			)
 		)
 		(pin "P1G" input
-			(at 29.21 62.23 180)
+			(at 166.37 80.01 180)
 			(uuid "f1f2508f-6bfe-4810-ac32-1c2e2cdb4132")
 			(effects
 				(font
@@ -192,7 +232,7 @@
 			)
 		)
 		(pin "P1S" output
-			(at 29.21 64.77 180)
+			(at 166.37 88.9 180)
 			(uuid "1ec24aa6-1750-4a51-8e8f-33c994a181f7")
 			(effects
 				(font
@@ -202,7 +242,7 @@
 			)
 		)
 		(pin "P2G" input
-			(at 29.21 67.31 180)
+			(at 166.37 82.55 180)
 			(uuid "38d3b082-f85b-4da2-bd6c-da6866d0fd70")
 			(effects
 				(font
@@ -212,7 +252,7 @@
 			)
 		)
 		(pin "P2S" output
-			(at 29.21 69.85 180)
+			(at 166.37 91.44 180)
 			(uuid "5b54fdfe-3f9f-48e6-8121-991ed7501540")
 			(effects
 				(font
@@ -222,7 +262,7 @@
 			)
 		)
 		(pin "P3G" input
-			(at 29.21 72.39 180)
+			(at 166.37 85.09 180)
 			(uuid "a56ddd21-7bbe-40cf-8140-8ca54614f70b")
 			(effects
 				(font
@@ -232,8 +272,18 @@
 			)
 		)
 		(pin "P3S" output
-			(at 29.21 74.93 180)
+			(at 166.37 93.98 180)
 			(uuid "508da03c-6809-4cb2-a08d-0420effaf2e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PYRO_EN" input
+			(at 166.37 76.2 180)
+			(uuid "51947b65-3a3a-4916-8280-7cbdb38311ea")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -250,8 +300,8 @@
 		)
 	)
 	(sheet
-		(at 80.01 119.38)
-		(size 21.59 15.24)
+		(at 166.37 119.38)
+		(size 20.32 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -266,7 +316,7 @@
 		)
 		(uuid "f8722589-a347-456c-844a-d31dfd5a28da")
 		(property "Sheetname" "Sensors"
-			(at 80.01 118.6684 0)
+			(at 166.37 118.6684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -277,7 +327,7 @@
 			)
 		)
 		(property "Sheetfile" "sensors.kicad_sch"
-			(at 80.01 135.2046 0)
+			(at 166.37 137.7446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -285,6 +335,66 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "EXTINT" input
+			(at 166.37 120.65 180)
+			(uuid "c9966d94-5a97-43e7-9cb3-2c2a125dd81f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMU_CS" input
+			(at 166.37 133.35 180)
+			(uuid "3f678948-676c-41d7-8e3d-70023b82dc3b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMU_INT1" output
+			(at 166.37 135.89 180)
+			(uuid "8e50090c-5672-4f60-aaff-0ec0deea97a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MAG_CS" input
+			(at 166.37 129.54 180)
+			(uuid "03e620e7-7e5e-40c8-b832-9255928a56cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RXD" input
+			(at 166.37 123.19 180)
+			(uuid "71f0b0de-eacc-4120-bc10-43dd650077b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TXD" output
+			(at 166.37 127 180)
+			(uuid "43aa8d8a-2058-4136-83d6-311651a5ce59")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
