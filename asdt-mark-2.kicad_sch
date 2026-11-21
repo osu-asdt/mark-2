@@ -5,9 +5,179 @@
 	(uuid "5368797f-237a-4d14-9f10-8bf9eb89d255")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 148.59 74.93) (xy 166.37 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e60660b-a0d2-4537-a81f-2dfa2af37b04")
+	)
+	(wire
+		(pts
+			(xy 148.59 60.96) (xy 166.37 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2264afa9-13a3-4638-bb79-06dc8a534d1c")
+	)
+	(wire
+		(pts
+			(xy 148.59 85.09) (xy 166.37 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24ee4943-be8a-4e70-b022-5c9b3e8e7c72")
+	)
+	(wire
+		(pts
+			(xy 148.59 81.28) (xy 166.37 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4996a45d-c590-463e-ba59-4db46906b25d")
+	)
+	(wire
+		(pts
+			(xy 148.59 58.42) (xy 166.37 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a557c27-5456-495f-8168-1d2a9e1dc7eb")
+	)
+	(wire
+		(pts
+			(xy 148.59 102.87) (xy 166.37 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54a7be45-7a75-49ac-9d26-a1ffa111ded3")
+	)
+	(wire
+		(pts
+			(xy 148.59 111.76) (xy 166.37 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d17a7f5-2be3-4dc8-bbb6-5b98e5cf0c01")
+	)
+	(wire
+		(pts
+			(xy 148.59 100.33) (xy 166.37 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85e2f3a7-187e-40cd-9110-a557d47b39cb")
+	)
+	(wire
+		(pts
+			(xy 148.59 63.5) (xy 166.37 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4830cd2-31fb-4b5b-b337-29356dc05a0e")
+	)
+	(wire
+		(pts
+			(xy 148.59 114.3) (xy 166.37 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "badb0cd9-713a-4d06-8c23-7bd7315135af")
+	)
+	(wire
+		(pts
+			(xy 148.59 77.47) (xy 166.37 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4ca22cc-8790-4d9a-8141-5a4696d6a006")
+	)
+	(wire
+		(pts
+			(xy 148.59 109.22) (xy 166.37 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8772879-9311-4b26-8fe5-f76a857659a8")
+	)
+	(wire
+		(pts
+			(xy 148.59 105.41) (xy 166.37 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e09b4514-5dfe-4674-be33-413196a12329")
+	)
+	(wire
+		(pts
+			(xy 148.59 96.52) (xy 166.37 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1331a28-00b7-4d75-932a-b3873ff0c854")
+	)
+	(wire
+		(pts
+			(xy 148.59 72.39) (xy 166.37 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee7f59d3-7b0d-4c6c-957f-46bd0007f0e8")
+	)
+	(wire
+		(pts
+			(xy 148.59 55.88) (xy 166.37 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f15abdd7-206d-4fd9-90ee-ad5f824ae11e")
+	)
+	(wire
+		(pts
+			(xy 148.59 87.63) (xy 166.37 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd10daa9-99b3-4015-bb14-a38b82f5eae3")
+	)
 	(sheet
-		(at 29.21 114.3)
-		(size 35.56 19.05)
+		(at 113.03 53.34)
+		(size 35.56 64.77)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +192,7 @@
 		)
 		(uuid "43c51da1-563a-4e0d-ba2d-ee6db7c0cebc")
 		(property "Sheetname" "MCU"
-			(at 29.21 113.5884 0)
+			(at 113.03 52.6284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +203,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 29.21 133.9346 0)
+			(at 113.03 118.6946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41,6 +211,176 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "BUSY" input
+			(at 148.59 55.88 0)
+			(uuid "eb3c73d8-c9cf-4af9-b8c1-9728faf54ff0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GNSS_EXTINT" output
+			(at 148.59 72.39 0)
+			(uuid "cae09e39-b9df-4ade-9e7f-c7b4ba2f2605")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GNSS_RXD" input
+			(at 148.59 74.93 0)
+			(uuid "002bc37c-d22e-4ddd-84c6-598e91935d29")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GNSS_TXD" output
+			(at 148.59 77.47 0)
+			(uuid "32f23216-dc97-4c75-bd84-419fe8dd8cf2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IMU_CS" output
+			(at 148.59 85.09 0)
+			(uuid "ed46d478-4724-4e1f-92cc-ccd367565083")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IMU_INT1" input
+			(at 148.59 87.63 0)
+			(uuid "eb35f952-8600-4d61-811a-9c00389f41bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MAG_CS" output
+			(at 148.59 81.28 0)
+			(uuid "62920be1-6ef4-4ea3-a8be-057d3351c76e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "P1G" output
+			(at 148.59 100.33 0)
+			(uuid "cbdecd08-f41b-4432-8d42-40566aaa363a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "P1S" input
+			(at 148.59 109.22 0)
+			(uuid "3cd14f2e-2946-479e-b8a4-cad95deaec54")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "P2G" output
+			(at 148.59 102.87 0)
+			(uuid "35ed0b5b-6cf0-400f-a31a-f2990d139d0c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "P2S" input
+			(at 148.59 111.76 0)
+			(uuid "00d1b13c-e20f-46cb-8f36-02e34a7846fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "P3G" output
+			(at 148.59 105.41 0)
+			(uuid "723bd710-bfed-402c-9fe5-5c2f7ef1028d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "P3S" input
+			(at 148.59 114.3 0)
+			(uuid "2549145c-0bbe-49ab-aa2c-02d6fb5154af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PYRO_EN" output
+			(at 148.59 96.52 0)
+			(uuid "aedb4302-68c3-4671-a994-7fea4a7cd7d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RADIO_CS" output
+			(at 148.59 58.42 0)
+			(uuid "ebdd3794-775e-4230-bb2a-d44ce544bfd5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RADIO_INT" input
+			(at 148.59 60.96 0)
+			(uuid "901b2a31-d4e5-43b6-9711-ef56c9326dbe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RADIO_RST" output
+			(at 148.59 63.5 0)
+			(uuid "a137a770-445c-4dbe-84a3-d4b92b40c1f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -52,7 +392,7 @@
 		)
 	)
 	(sheet
-		(at 166.37 102.87)
+		(at 166.37 54.61)
 		(size 20.32 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -68,7 +408,7 @@
 		)
 		(uuid "4a3900dc-f1aa-425b-9300-e91c733965af")
 		(property "Sheetname" "Radio"
-			(at 166.37 102.1584 0)
+			(at 166.37 53.8984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +419,7 @@
 			)
 		)
 		(property "Sheetfile" "radio.kicad_sch"
-			(at 166.37 113.6146 0)
+			(at 166.37 65.3546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -90,7 +430,7 @@
 			)
 		)
 		(pin "BUSY" output
-			(at 166.37 104.14 180)
+			(at 166.37 55.88 180)
 			(uuid "4b7b707c-ea15-477d-a038-549348233c9e")
 			(effects
 				(font
@@ -100,7 +440,7 @@
 			)
 		)
 		(pin "RADIO_CS" input
-			(at 166.37 106.68 180)
+			(at 166.37 58.42 180)
 			(uuid "21e84a93-f046-40c5-9d33-102c73c698e0")
 			(effects
 				(font
@@ -110,7 +450,7 @@
 			)
 		)
 		(pin "RADIO_INT" output
-			(at 166.37 109.22 180)
+			(at 166.37 60.96 180)
 			(uuid "e9a740a9-8af2-4cca-8a52-f152248e0f0d")
 			(effects
 				(font
@@ -120,7 +460,7 @@
 			)
 		)
 		(pin "RADIO_RST" input
-			(at 166.37 111.76 180)
+			(at 166.37 63.5 180)
 			(uuid "7ac8c2d0-3d61-473c-9a1e-58f920be6241")
 			(effects
 				(font
@@ -138,7 +478,7 @@
 		)
 	)
 	(sheet
-		(at 104.14 59.69)
+		(at 35.56 157.48)
 		(size 22.86 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -154,7 +494,7 @@
 		)
 		(uuid "b5ca037a-4077-45e7-b3a7-62b31c79bcbc")
 		(property "Sheetname" "Power"
-			(at 104.14 58.9784 0)
+			(at 35.56 156.7684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -165,7 +505,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 104.14 78.0546 0)
+			(at 35.56 175.8446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -184,7 +524,7 @@
 		)
 	)
 	(sheet
-		(at 166.37 74.93)
+		(at 166.37 95.25)
 		(size 20.32 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -200,7 +540,7 @@
 		)
 		(uuid "bf009304-62d8-434a-97e7-f0d8d849dd79")
 		(property "Sheetname" "Pyro"
-			(at 166.37 74.2184 0)
+			(at 166.37 94.5384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -211,7 +551,7 @@
 			)
 		)
 		(property "Sheetfile" "pyro.kicad_sch"
-			(at 166.37 95.8346 0)
+			(at 166.37 116.1546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -222,7 +562,7 @@
 			)
 		)
 		(pin "P1G" input
-			(at 166.37 80.01 180)
+			(at 166.37 100.33 180)
 			(uuid "f1f2508f-6bfe-4810-ac32-1c2e2cdb4132")
 			(effects
 				(font
@@ -232,7 +572,7 @@
 			)
 		)
 		(pin "P1S" output
-			(at 166.37 88.9 180)
+			(at 166.37 109.22 180)
 			(uuid "1ec24aa6-1750-4a51-8e8f-33c994a181f7")
 			(effects
 				(font
@@ -242,7 +582,7 @@
 			)
 		)
 		(pin "P2G" input
-			(at 166.37 82.55 180)
+			(at 166.37 102.87 180)
 			(uuid "38d3b082-f85b-4da2-bd6c-da6866d0fd70")
 			(effects
 				(font
@@ -252,7 +592,7 @@
 			)
 		)
 		(pin "P2S" output
-			(at 166.37 91.44 180)
+			(at 166.37 111.76 180)
 			(uuid "5b54fdfe-3f9f-48e6-8121-991ed7501540")
 			(effects
 				(font
@@ -262,7 +602,7 @@
 			)
 		)
 		(pin "P3G" input
-			(at 166.37 85.09 180)
+			(at 166.37 105.41 180)
 			(uuid "a56ddd21-7bbe-40cf-8140-8ca54614f70b")
 			(effects
 				(font
@@ -272,7 +612,7 @@
 			)
 		)
 		(pin "P3S" output
-			(at 166.37 93.98 180)
+			(at 166.37 114.3 180)
 			(uuid "508da03c-6809-4cb2-a08d-0420effaf2e3")
 			(effects
 				(font
@@ -282,7 +622,7 @@
 			)
 		)
 		(pin "PYRO_EN" input
-			(at 166.37 76.2 180)
+			(at 166.37 96.52 180)
 			(uuid "51947b65-3a3a-4916-8280-7cbdb38311ea")
 			(effects
 				(font
@@ -300,7 +640,7 @@
 		)
 	)
 	(sheet
-		(at 166.37 119.38)
+		(at 166.37 71.12)
 		(size 20.32 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -316,7 +656,7 @@
 		)
 		(uuid "f8722589-a347-456c-844a-d31dfd5a28da")
 		(property "Sheetname" "Sensors"
-			(at 166.37 118.6684 0)
+			(at 166.37 70.4084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -327,7 +667,7 @@
 			)
 		)
 		(property "Sheetfile" "sensors.kicad_sch"
-			(at 166.37 137.7446 0)
+			(at 166.37 89.4846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -338,7 +678,7 @@
 			)
 		)
 		(pin "EXTINT" input
-			(at 166.37 120.65 180)
+			(at 166.37 72.39 180)
 			(uuid "c9966d94-5a97-43e7-9cb3-2c2a125dd81f")
 			(effects
 				(font
@@ -348,7 +688,7 @@
 			)
 		)
 		(pin "IMU_CS" input
-			(at 166.37 133.35 180)
+			(at 166.37 85.09 180)
 			(uuid "3f678948-676c-41d7-8e3d-70023b82dc3b")
 			(effects
 				(font
@@ -358,7 +698,7 @@
 			)
 		)
 		(pin "IMU_INT1" output
-			(at 166.37 135.89 180)
+			(at 166.37 87.63 180)
 			(uuid "8e50090c-5672-4f60-aaff-0ec0deea97a5")
 			(effects
 				(font
@@ -368,7 +708,7 @@
 			)
 		)
 		(pin "MAG_CS" input
-			(at 166.37 129.54 180)
+			(at 166.37 81.28 180)
 			(uuid "03e620e7-7e5e-40c8-b832-9255928a56cf")
 			(effects
 				(font
@@ -378,7 +718,7 @@
 			)
 		)
 		(pin "RXD" input
-			(at 166.37 123.19 180)
+			(at 166.37 74.93 180)
 			(uuid "71f0b0de-eacc-4120-bc10-43dd650077b6")
 			(effects
 				(font
@@ -388,7 +728,7 @@
 			)
 		)
 		(pin "TXD" output
-			(at 166.37 127 180)
+			(at 166.37 77.47 180)
 			(uuid "43aa8d8a-2058-4136-83d6-311651a5ce59")
 			(effects
 				(font

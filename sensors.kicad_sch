@@ -2867,7 +2867,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 62.23) (xy 172.72 62.23)
+			(xy 170.18 62.23) (xy 172.72 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2947,7 +2947,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 74.93) (xy 172.72 74.93)
+			(xy 170.18 74.93) (xy 172.72 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3327,7 +3327,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 59.69) (xy 172.72 59.69)
+			(xy 170.18 59.69) (xy 172.72 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3405,7 +3405,7 @@
 		)
 		(uuid "fea931ca-3a71-49a4-8fad-b94229760de2")
 	)
-	(global_label "MISO"
+	(global_label "POCI"
 		(shape output)
 		(at 143.51 139.7 180)
 		(fields_autoplaced yes)
@@ -3525,7 +3525,7 @@
 			)
 		)
 	)
-	(global_label "MISO"
+	(global_label "POCI"
 		(shape output)
 		(at 80.01 83.82 180)
 		(fields_autoplaced yes)
@@ -3549,7 +3549,7 @@
 			)
 		)
 	)
-	(global_label "MOSI"
+	(global_label "PICO"
 		(shape input)
 		(at 143.51 137.16 180)
 		(fields_autoplaced yes)
@@ -3573,7 +3573,7 @@
 			)
 		)
 	)
-	(global_label "MOSI"
+	(global_label "PICO"
 		(shape input)
 		(at 80.01 81.28 180)
 		(fields_autoplaced yes)
@@ -3597,9 +3597,9 @@
 			)
 		)
 	)
-	(hierarchical_label "RXD"
+	(hierarchical_label "GNSS_RXD"
 		(shape input)
-		(at 166.37 59.69 180)
+		(at 170.18 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3619,9 +3619,9 @@
 		)
 		(uuid "3f48f541-1ac3-472d-b7d6-047a10315dc9")
 	)
-	(hierarchical_label "TXD"
+	(hierarchical_label "GNSS_TXD"
 		(shape output)
-		(at 166.37 62.23 180)
+		(at 170.18 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3652,9 +3652,9 @@
 		)
 		(uuid "d9342187-f729-4e1f-960f-69ede8791213")
 	)
-	(hierarchical_label "EXTINT"
+	(hierarchical_label "GNSS_EXTINT"
 		(shape input)
-		(at 166.37 74.93 180)
+		(at 170.18 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)

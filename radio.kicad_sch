@@ -1293,7 +1293,7 @@
 			)
 		)
 	)
-	(global_label "MOSI"
+	(global_label "PICO"
 		(shape input)
 		(at 130.81 100.33 180)
 		(fields_autoplaced yes)
@@ -1317,7 +1317,7 @@
 			)
 		)
 	)
-	(global_label "MISO"
+	(global_label "POCI"
 		(shape output)
 		(at 130.81 97.79 180)
 		(fields_autoplaced yes)
