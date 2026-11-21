@@ -3,4 +3,5 @@
 *.bak
 production
 *backups*
+*DS_Store
 
