@@ -3496,6 +3496,310 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "mark-2-syms:587-2086-247F"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "587-2086-247F"
+				(at 1.27 -5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+				(at 1.27 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://s3-us-west-2.amazonaws.com/catsy.557/Dialight_datasheet_587-2086-247F_Addressable_RGB.pdf"
+				(at 2.54 -9.525 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller"
+				(at 0.254 18.542 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "RGB LED addressable 8bit pwm 5bit greyscale"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED*RGB*5050*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "587-2086-247F_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "587-2086-247F_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "587-2086-247F_1_1"
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "CIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "CO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "DO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+1V1"
 			(power global)
 			(pin_numbers
@@ -4478,6 +4782,10 @@
 		(uuid "faecf972-07f3-4f6b-a07c-bb2a426047f8")
 	)
 	(no_connect
+		(at 144.78 167.64)
+		(uuid "1e2b18c6-a561-4a19-aee1-4b3ce5933142")
+	)
+	(no_connect
 		(at 45.72 99.06)
 		(uuid "4d3d6461-766e-4925-8175-9fa49eea8cb3")
 	)
@@ -4492,6 +4800,10 @@
 	(no_connect
 		(at 80.01 163.83)
 		(uuid "754db0b2-f227-4b17-9d93-3fa4d72eb19b")
+	)
+	(no_connect
+		(at 144.78 170.18)
+		(uuid "c6dac129-8a6d-4e50-a55b-53db24c5ab51")
 	)
 	(wire
 		(pts
@@ -4582,6 +4894,16 @@
 			(type default)
 		)
 		(uuid "120500c4-d3f5-4115-8f49-7b79093e6100")
+	)
+	(wire
+		(pts
+			(xy 114.3 170.18) (xy 129.54 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1570c423-7bca-4c1a-9e48-177552b83d05")
 	)
 	(wire
 		(pts
@@ -5155,6 +5477,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 167.64) (xy 129.54 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eef4c66-ad62-42d0-b713-f21ba368a61e")
+	)
+	(wire
+		(pts
 			(xy 146.05 88.9) (xy 151.13 88.9)
 		)
 		(stroke
@@ -5465,6 +5797,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 127) (xy 158.75 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf228ac9-1c14-4462-9f47-e5a747733a03")
+	)
+	(wire
+		(pts
 			(xy 48.26 81.28) (xy 48.26 83.82)
 		)
 		(stroke
@@ -5715,7 +6057,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 127) (xy 158.75 127)
+			(xy 140.97 127) (xy 148.59 127)
 		)
 		(stroke
 			(width 0)
@@ -5842,6 +6184,16 @@
 			(justify right bottom)
 		)
 		(uuid "0d909d48-94be-4903-9923-2f39919cb4e1")
+	)
+	(label "LED_SCK"
+		(at 114.3 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "28134464-c4de-4dc4-8a01-1e90697984ff")
 	)
 	(label "USB_DM"
 		(at 146.05 86.36 180)
@@ -6052,6 +6404,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "PICO"
+		(shape input)
+		(at 124.46 167.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "616cab39-a129-4164-93b6-4e2a07e1de4b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.9995 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -6302,7 +6678,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "016f7b74-f2e5-4672-a1ca-5a7254b56586")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR061"
 			(at 186.69 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -6362,7 +6738,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "#PWR049")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -6380,7 +6756,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01e13076-96ae-4c1e-9f9f-8ebf854d10b3")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR065"
 			(at 223.52 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -6446,7 +6822,7 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "#PWR053")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -6463,7 +6839,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0696a09e-6358-46cf-8589-4c84d4cf57c9")
-		(property "Reference" "C8"
+		(property "Reference" "C11"
 			(at 102.87 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6582,7 +6958,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "C8")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -6600,7 +6976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08c97d61-7318-42a9-b8ee-430f1e7e5316")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR033"
 			(at 49.53 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6660,7 +7036,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "#PWR026")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -6678,7 +7054,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0c02dac8-c3e7-4f89-b696-cdac89d76a6c")
-		(property "Reference" "C16"
+		(property "Reference" "C21"
 			(at 180.34 30.734 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6700,7 +7076,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 182.88 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -6814,7 +7190,7 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "C16")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -6832,7 +7208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fbbed0f-58b7-47f3-8f42-dcc55cbdc1e5")
-		(property "Reference" "C9"
+		(property "Reference" "C14"
 			(at 121.92 27.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6946,7 +7322,7 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "C9")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -6964,7 +7340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "140d4502-2815-4ca5-94bc-5b075ce2f9bc")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR039"
 			(at 92.71 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -7024,7 +7400,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "#PWR033")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -7042,7 +7418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14711121-3628-4eb4-b076-51f3ef94af6c")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR031"
 			(at 22.86 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -7108,7 +7484,7 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "#PWR024")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -7125,7 +7501,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1589a413-72f5-4d34-be6c-3d0ce549801b")
-		(property "Reference" "R14"
+		(property "Reference" "R15"
 			(at 52.07 71.628 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7237,7 +7613,7 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "R14")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -7255,7 +7631,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "181e7375-5afe-4772-81a4-5e3c6dbab745")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR042"
 			(at 99.06 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -7315,7 +7691,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "#PWR035")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -7333,7 +7709,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cb70ca6-15b7-42ea-8385-d07916da0399")
-		(property "Reference" "C13"
+		(property "Reference" "C18"
 			(at 144.78 27.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7447,7 +7823,85 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "C13")
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 137.16 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1cbf6179-417e-4b6f-bf5d-6b40c4dacee6")
+		(property "Reference" "#PWR051"
+			(at 137.16 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 137.16 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 137.16 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bde3d1e4-3d6a-42b1-884c-bf6e8ed93934")
+		)
+		(instances
+			(project "asdt-mark-2"
+				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -7465,7 +7919,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d09461d-ef2c-4239-a726-fa77aecb1220")
-		(property "Reference" "R19"
+		(property "Reference" "R21"
 			(at 150.114 91.186 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7577,7 +8031,7 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "R19")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -7594,7 +8048,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1db0a940-c7d3-4249-b90a-57ab48c4f2a0")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR034"
 			(at 62.23 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -7654,7 +8108,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "#PWR027")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -7672,7 +8126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21e25569-34b7-4432-a469-9bca37baa929")
-		(property "Reference" "J3"
+		(property "Reference" "J5"
 			(at 55.88 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7804,7 +8258,87 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "J3")
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 151.13 127 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "264811ea-057b-4264-bf45-c129ec621b0b")
+		(property "Reference" "R25"
+			(at 151.13 121.92 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 151.13 124.46 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 151.13 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 151.13 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "408693f6-663e-4a8c-aa61-4cf096772460")
+		)
+		(pin "2"
+			(uuid "240c663b-1bb8-482e-8ffc-ffb5654e69bb")
+		)
+		(instances
+			(project "asdt-mark-2"
+				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -7822,7 +8356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b964f20-586d-4ed2-967f-e333d95da9d6")
-		(property "Reference" "C14"
+		(property "Reference" "C19"
 			(at 156.21 27.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7936,7 +8470,7 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "C14")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -7954,7 +8488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cf8cbfd-33ac-45de-97a8-b31ba0353fb6")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR060"
 			(at 182.88 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -8014,7 +8548,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "#PWR048")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -8031,7 +8565,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e22ef53-298f-405c-97d1-9e4bf69ef82c")
-		(property "Reference" "C19"
+		(property "Reference" "C24"
 			(at 227.33 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8156,7 +8690,7 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "C19")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -8174,7 +8708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e673544-4902-4cb3-9740-0257ca16c1ff")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR049"
 			(at 130.81 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -8240,7 +8774,7 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "#PWR039")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -8258,7 +8792,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2eb1411c-3c6f-458e-91cd-e348d96e6a68")
-		(property "Reference" "R24"
+		(property "Reference" "R19"
 			(at 139.7 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8320,7 +8854,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "R24")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -8338,7 +8872,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "309d41a6-427c-453b-8409-9dbfcb2d0be9")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR037"
 			(at 73.66 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -8398,7 +8932,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "#PWR036")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -8542,7 +9076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31dae738-e370-4109-8e9b-51117e1e61b3")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR062"
 			(at 198.12 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -8602,7 +9136,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "#PWR050")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -8620,7 +9154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "320b5a5f-7ae0-4e04-a456-94e9419f35c1")
-		(property "Reference" "R22"
+		(property "Reference" "R24"
 			(at 247.65 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8684,7 +9218,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "R22")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -8701,7 +9235,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "369b9e13-b70a-4d08-82cf-342817656df4")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 182.372 101.092 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8986,7 +9520,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "U4")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -9004,7 +9538,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40ff3c21-68c6-41b2-994c-00e1358fab62")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR058"
 			(at 171.45 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -9064,7 +9598,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "#PWR046")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -9083,7 +9617,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42472a53-58f2-410c-8076-19d755a9dd23")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR044"
 			(at 110.49 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -9143,7 +9677,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "#PWR076")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -9161,7 +9695,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "439c355a-3476-4a78-b093-30acd2a084e4")
-		(property "Reference" "C7"
+		(property "Reference" "C12"
 			(at 110.49 27.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9275,7 +9809,7 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "C7")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -9293,7 +9827,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54538215-c883-4e06-b766-318e7c2294fa")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR040"
 			(at 92.71 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -9353,7 +9887,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "#PWR034")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -9372,7 +9906,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5744987b-33ba-4ef5-bfef-48276610a5e0")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR059"
 			(at 182.88 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -9438,7 +9972,7 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "#PWR047")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -9456,7 +9990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e3979b6-a4e7-4b7e-94bd-d364cdbe6560")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR041"
 			(at 96.52 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -9522,7 +10056,7 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "#PWR031")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -9539,7 +10073,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e95ca67-f256-4c1f-9c09-756bee8ffdb7")
-		(property "Reference" "C17"
+		(property "Reference" "C22"
 			(at 201.93 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9561,7 +10095,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 198.12 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -9664,7 +10198,7 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "C17")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -9682,7 +10216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "611504f2-2fd4-4efb-929a-53ce4cae46e8")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR053"
 			(at 140.97 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -9742,7 +10276,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "#PWR041")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -9760,7 +10294,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "616e04b9-58e1-4493-ba55-52e378ca7170")
-		(property "Reference" "C6"
+		(property "Reference" "C10"
 			(at 99.06 27.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9874,7 +10408,7 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "C6")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -9891,7 +10425,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "624bfad5-b3d1-4c3f-b6c6-5bf4e8c7781b")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR056"
 			(at 156.21 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -9951,7 +10485,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "#PWR044")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -9969,7 +10503,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6443cda3-d9ba-4690-8eef-bfd39ef5d12f")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR038"
 			(at 85.09 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -10035,7 +10569,7 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "#PWR030")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -10053,7 +10587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64659959-243f-4838-b086-162e0cb81dcf")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR046"
 			(at 114.3 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -10113,7 +10647,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "#PWR075")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -10131,7 +10665,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "659219d3-6328-44ac-9489-7f650be4f98b")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR068"
 			(at 245.11 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -10191,7 +10725,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "#PWR074")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -10209,7 +10743,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b0b525f-74b7-47d0-9922-06824c8b87e5")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR055"
 			(at 153.67 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -10275,7 +10809,7 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "#PWR043")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -10292,7 +10826,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6b953714-ed8e-47d9-882e-c96c41c71971")
-		(property "Reference" "C20"
+		(property "Reference" "C25"
 			(at 240.03 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10411,7 +10945,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "C20")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -10429,7 +10963,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "706029d7-bd2b-4905-88a1-3fd79e560955")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR054"
 			(at 142.24 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -10495,7 +11029,7 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "#PWR042")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -10514,7 +11048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "756b5be6-36ca-4793-8c1a-3466fbe18665")
-		(property "Reference" "U9"
+		(property "Reference" "U4"
 			(at 102.87 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10596,7 +11130,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "U9")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -10614,7 +11148,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78783f23-3ef4-4a62-adec-9d2e124d99a5")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR066"
 			(at 236.22 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -10674,7 +11208,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "#PWR054")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -10692,7 +11226,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "799662a0-ec3c-4cb5-811b-e8d7b9cb9467")
-		(property "Reference" "C5"
+		(property "Reference" "C9"
 			(at 87.63 27.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10806,7 +11340,7 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "C5")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -10823,7 +11357,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b6ab49e-f450-4bfc-901d-d4d92833d318")
-		(property "Reference" "SW2"
+		(property "Reference" "SW1"
 			(at 63.754 104.394 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10931,7 +11465,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -11078,7 +11612,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d44585b-de12-427d-a148-9ea90b50d9c4")
-		(property "Reference" "C11"
+		(property "Reference" "C16"
 			(at 133.35 27.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11192,7 +11726,7 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "C11")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -11209,7 +11743,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d5c875e-6a4c-4a7e-a670-6f07b0926cc0")
-		(property "Reference" "R18"
+		(property "Reference" "R20"
 			(at 150.622 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11321,7 +11855,7 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "R18")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -11339,7 +11873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7dca8cce-296a-4785-be71-a360b256a983")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR045"
 			(at 114.3 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -11399,7 +11933,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "#PWR077")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -11417,7 +11951,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "833deeb1-8717-46c0-8450-a86a951a30af")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR043"
 			(at 107.95 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -11483,7 +12017,7 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "#PWR032")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -11501,7 +12035,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8badfc56-94c0-4309-9a0e-fb8511704349")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR063"
 			(at 198.12 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -11567,7 +12101,85 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "#PWR051")
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e08bd0b-2f30-4988-9c39-03319ba191b3")
+		(property "Reference" "#PWR052"
+			(at 137.16 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "61efcf71-00b7-4354-afd8-2ee319fc2b22")
+		)
+		(instances
+			(project "asdt-mark-2"
+				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -11586,7 +12198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95e43e02-c365-4657-953c-ed72b77339b5")
-		(property "Reference" "C31"
+		(property "Reference" "C13"
 			(at 107.95 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11694,7 +12306,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "C31")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -11712,7 +12324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98303804-d1f2-4a8a-a07d-6c69acf0cedb")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR067"
 			(at 236.22 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -11772,7 +12384,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "#PWR055")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -11790,7 +12402,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d28d010-6dff-46ab-8169-18eb04af399c")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR048"
 			(at 121.92 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -11850,7 +12462,103 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "#PWR038")
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mark-2-syms:587-2086-247F")
+		(at 137.16 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a10f68c8-7b1e-4975-9417-d2261d453560")
+		(property "Reference" "D4"
+			(at 139.3033 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "587-2086-247F"
+			(at 139.3033 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ASDT_Footprints:LED-587-2086-247F-3228"
+			(at 138.43 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://s3-us-west-2.amazonaws.com/catsy.557/Dialight_datasheet_587-2086-247F_Addressable_RGB.pdf"
+			(at 139.7 179.705 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 137.414 151.638 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "539d6536-5f14-4b6d-9126-b73cb7d6c78f")
+		)
+		(pin "2"
+			(uuid "6cbbd45b-1f18-4bdb-9679-c65de53094e4")
+		)
+		(pin "3"
+			(uuid "75f6d521-48ba-4fe9-928e-41754aef40f3")
+		)
+		(pin "5"
+			(uuid "fe569536-7f52-4f73-94b8-8acf30b3177e")
+		)
+		(pin "6"
+			(uuid "a0db41ce-34af-43ad-a639-07ecdaf7da82")
+		)
+		(pin "4"
+			(uuid "94d50448-321d-4150-9121-32ad2d668edb")
+		)
+		(instances
+			(project "asdt-mark-2"
+				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -11868,7 +12576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a121b207-b1fb-43d8-b8c8-f917d6aa1613")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG03"
 			(at 186.055 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -11929,7 +12637,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "#FLG01")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -11947,7 +12655,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a32d25e5-41f4-427f-b6e3-c2fa3a7f6b44")
-		(property "Reference" "L2"
+		(property "Reference" "L3"
 			(at 187.96 42.164 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12064,7 +12772,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "L2")
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -12082,7 +12790,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a76d0197-823c-4957-998f-3191d83abda4")
-		(property "Reference" "R20"
+		(property "Reference" "R22"
 			(at 159.512 48.514 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12194,7 +12902,7 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "R20")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -12212,7 +12920,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7f5383b-7d69-46af-95a1-c7ac2b15727c")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR035"
 			(at 66.04 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -12272,7 +12980,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "#PWR028")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -12291,7 +12999,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa81cc12-5ed0-479f-999f-a3c5258a0a8a")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR057"
 			(at 156.21 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -12357,7 +13065,7 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "#PWR045")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -12376,7 +13084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acb5ff92-b446-4327-9481-bd6944d57779")
-		(property "Reference" "C15"
+		(property "Reference" "C20"
 			(at 153.67 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12398,7 +13106,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 156.21 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -12490,7 +13198,7 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "C15")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -12508,7 +13216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd5c10f0-0401-4348-b611-3ef8ffa05fd7")
-		(property "Reference" "J2"
+		(property "Reference" "J4"
 			(at 30.48 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12528,7 +13236,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 34.29 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -12665,7 +13373,7 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "J2")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -12683,7 +13391,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bde47795-f461-4501-a8fd-ccb76a8c55fa")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR036"
 			(at 67.31 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -12743,7 +13451,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "#PWR029")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -12761,7 +13469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c29eb362-6a40-4b01-94cc-07109f207a1d")
-		(property "Reference" "R21"
+		(property "Reference" "R23"
 			(at 247.65 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12825,7 +13533,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "R21")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -12843,7 +13551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c50d0208-5968-4cc1-84e5-c7ad8f83f321")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR069"
 			(at 245.11 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -12903,7 +13611,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "#PWR072")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -12920,7 +13628,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d14ddca8-4db7-4a24-8b02-3473c8ad9c95")
-		(property "Reference" "C12"
+		(property "Reference" "C17"
 			(at 144.526 134.874 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13028,7 +13736,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "C12")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -13046,7 +13754,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d3443da1-ca34-4219-874f-8d71ca9bb3a1")
-		(property "Reference" "R15"
+		(property "Reference" "R16"
 			(at 51.816 78.486 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13158,7 +13866,7 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "R15")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -13176,7 +13884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db63e142-dca0-4758-9089-9ed191a86293")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR047"
 			(at 119.38 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -13242,7 +13950,7 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "#PWR037")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -13260,7 +13968,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e634a8b5-cf36-4954-b4d8-1e7359108594")
-		(property "Reference" "R16"
+		(property "Reference" "R18"
 			(at 95.25 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13368,7 +14076,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "R16")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -13385,7 +14093,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eac6bd91-6ee9-457d-9c93-e389550c2ad4")
-		(property "Reference" "SW1"
+		(property "Reference" "SW2"
 			(at 82.804 68.834 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13493,7 +14201,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "SW1")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -13510,7 +14218,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0c5cb63-eb9b-4e6a-af0f-399db9c65dd5")
-		(property "Reference" "C10"
+		(property "Reference" "C15"
 			(at 125.476 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13618,7 +14326,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "C10")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -13636,7 +14344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3650771-e7cd-41e7-982d-cd40fe72b803")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR032"
 			(at 30.48 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -13702,7 +14410,7 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "#PWR025")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -13719,7 +14427,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f89cc85a-5909-4361-b4b6-1843a0c335cc")
-		(property "Reference" "C18"
+		(property "Reference" "C23"
 			(at 214.63 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13844,7 +14552,7 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "C18")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -13862,7 +14570,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa270032-73ba-4cf6-a37f-ec1dd0ed5f4e")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR064"
 			(at 210.82 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -13928,7 +14636,7 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "#PWR052")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -13946,7 +14654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe0d5587-1103-470e-beb7-4d4466e37273")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR050"
 			(at 132.08 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -14006,7 +14714,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
-					(reference "#PWR040")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)

@@ -2802,7 +2802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "006c1086-fc2d-4d6c-9125-ab383f043d47")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR012"
 			(at 153.67 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -2868,7 +2868,7 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/b5ca037a-4077-45e7-b3a7-62b31c79bcbc"
-					(reference "#PWR09")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -2886,7 +2886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07a55689-f279-487d-bc1b-b5dce9aeda04")
-		(property "Reference" "C4"
+		(property "Reference" "C6"
 			(at 214.63 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3000,7 +3000,7 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/b5ca037a-4077-45e7-b3a7-62b31c79bcbc"
-					(reference "C4")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -3018,7 +3018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07f33b0b-b392-482f-ba86-2379b70e9043")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR09"
 			(at 125.73 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3078,7 +3078,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/b5ca037a-4077-45e7-b3a7-62b31c79bcbc"
-					(reference "#PWR070")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -3096,7 +3096,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d67b8e4-1ac8-4582-be44-1e2a2770ab0d")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 180.34 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3229,7 +3229,7 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/b5ca037a-4077-45e7-b3a7-62b31c79bcbc"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -3247,7 +3247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13b0c301-ed3b-423a-b5b2-4a5d7a06c8e6")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR08"
 			(at 110.49 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -3307,7 +3307,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/b5ca037a-4077-45e7-b3a7-62b31c79bcbc"
-					(reference "#PWR015")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -3325,7 +3325,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "342a19ba-ecb0-4b76-b001-9079c1414092")
-		(property "Reference" "Q4"
+		(property "Reference" "Q1"
 			(at 125.73 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3415,7 +3415,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/b5ca037a-4077-45e7-b3a7-62b31c79bcbc"
-					(reference "Q4")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -3433,7 +3433,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e671891-b6c2-4a3b-b84d-9310c769aedf")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR017"
 			(at 212.09 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -3499,7 +3499,7 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/b5ca037a-4077-45e7-b3a7-62b31c79bcbc"
-					(reference "#PWR014")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -3517,7 +3517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e9080d4-585e-4aab-a876-ad778b650a73")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR014"
 			(at 180.34 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -3583,7 +3583,7 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/b5ca037a-4077-45e7-b3a7-62b31c79bcbc"
-					(reference "#PWR011")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -3600,7 +3600,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "52acc3bb-b2d5-4d37-aaf7-45cdae23aee0")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 142.748 81.534 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3684,7 +3684,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/b5ca037a-4077-45e7-b3a7-62b31c79bcbc"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -3702,7 +3702,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "658a74d8-4beb-4cff-a643-8cdcd3eaaaa6")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG02"
 			(at 167.64 104.775 0)
 			(hide yes)
 			(show_name no)
@@ -3762,7 +3762,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/b5ca037a-4077-45e7-b3a7-62b31c79bcbc"
-					(reference "#FLG04")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -3780,7 +3780,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67ba0e60-a7e2-4b9b-ab16-0cbe362f41e2")
-		(property "Reference" "C3"
+		(property "Reference" "C5"
 			(at 156.21 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3894,7 +3894,7 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/b5ca037a-4077-45e7-b3a7-62b31c79bcbc"
-					(reference "C3")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -3912,7 +3912,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77104e66-b7fd-4c17-a2c6-cc5d4aaefab6")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR015"
 			(at 196.85 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -3978,7 +3978,7 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/b5ca037a-4077-45e7-b3a7-62b31c79bcbc"
-					(reference "#PWR012")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -3996,7 +3996,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d157603-92d6-400a-b688-82fdce1ea8a7")
-		(property "Reference" "R1"
+		(property "Reference" "R3"
 			(at 163.83 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4110,7 +4110,7 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/b5ca037a-4077-45e7-b3a7-62b31c79bcbc"
-					(reference "R1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4128,7 +4128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98fa6445-1bca-4678-84d2-ec6e417923bb")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 134.62 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4234,7 +4234,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/b5ca037a-4077-45e7-b3a7-62b31c79bcbc"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -4252,7 +4252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a387fca-3f80-4f55-b555-f6cab3abb47d")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR013"
 			(at 166.37 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -4318,7 +4318,7 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/b5ca037a-4077-45e7-b3a7-62b31c79bcbc"
-					(reference "#PWR010")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -4336,7 +4336,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a4c24525-6bbe-4bd6-ba70-4657745a8786")
-		(property "Reference" "D4"
+		(property "Reference" "D1"
 			(at 131.1275 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4420,7 +4420,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/b5ca037a-4077-45e7-b3a7-62b31c79bcbc"
-					(reference "D4")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -4438,7 +4438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a61de613-df46-4826-8308-eb0764a6eabf")
-		(property "Reference" "R23"
+		(property "Reference" "R2"
 			(at 128.27 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4524,7 +4524,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/b5ca037a-4077-45e7-b3a7-62b31c79bcbc"
-					(reference "R23")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4542,7 +4542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6625b79-9d51-4737-936a-8ddf4f2ef157")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR010"
 			(at 151.13 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -4608,7 +4608,7 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/b5ca037a-4077-45e7-b3a7-62b31c79bcbc"
-					(reference "#PWR08")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -4626,7 +4626,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9dce70a-e3ea-4d0f-b580-06a56a824fbc")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR011"
 			(at 151.13 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4686,7 +4686,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/b5ca037a-4077-45e7-b3a7-62b31c79bcbc"
-					(reference "#PWR073")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -4834,7 +4834,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ca8cfd9b-811e-49a5-b59b-921c21be82a2")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG01"
 			(at 146.05 42.545 0)
 			(hide yes)
 			(show_name no)
@@ -4895,7 +4895,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/b5ca037a-4077-45e7-b3a7-62b31c79bcbc"
-					(reference "#FLG03")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -4913,7 +4913,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e49fbe28-c7eb-44ec-9b45-dda373295404")
-		(property "Reference" "J5"
+		(property "Reference" "J2"
 			(at 101.6 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4935,7 +4935,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_CUI:TerminalBlock_CUI_TB007-508-02_1x02_P5.08mm_Horizontal"
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
 			(at 104.14 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -4999,7 +4999,7 @@
 		(instances
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/b5ca037a-4077-45e7-b3a7-62b31c79bcbc"
-					(reference "J5")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5017,7 +5017,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eea1152e-e7a2-4f14-b714-ad6a1c3b73a0")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR016"
 			(at 212.09 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5083,7 +5083,7 @@
 			)
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/b5ca037a-4077-45e7-b3a7-62b31c79bcbc"
-					(reference "#PWR013")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
