@@ -4724,7 +4724,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
 			(at 199.39 106.68 0)
 			(hide yes)
 			(show_name no)
