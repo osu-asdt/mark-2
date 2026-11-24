@@ -213,7 +213,7 @@
 				(justify left top)
 			)
 		)
-		(pin "BUSY" input
+		(pin "RADIO_BUSY" input
 			(at 148.59 55.88 0)
 			(uuid "eb3c73d8-c9cf-4af9-b8c1-9728faf54ff0")
 			(effects
@@ -233,7 +233,7 @@
 				(justify right)
 			)
 		)
-		(pin "GNSS_RXD" input
+		(pin "GNSS_TX" output
 			(at 148.59 74.93 0)
 			(uuid "002bc37c-d22e-4ddd-84c6-598e91935d29")
 			(effects
@@ -243,7 +243,7 @@
 				(justify right)
 			)
 		)
-		(pin "GNSS_TXD" output
+		(pin "GNSS_RX" input
 			(at 148.59 77.47 0)
 			(uuid "32f23216-dc97-4c75-bd84-419fe8dd8cf2")
 			(effects
