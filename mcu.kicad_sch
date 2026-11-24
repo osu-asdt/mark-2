@@ -4644,6 +4644,12 @@
 		(uuid "231b077e-2f63-4200-b775-9479dffb5b45")
 	)
 	(junction
+		(at 248.92 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "258da275-3247-4d54-a168-78c5e50de6a9")
+	)
+	(junction
 		(at 171.45 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4686,6 +4692,12 @@
 		(uuid "72602257-a50f-4c5a-8916-204dc03c0bcf")
 	)
 	(junction
+		(at 251.46 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "731c2410-9b8b-4ece-b6b6-ccba6bc8d6ae")
+	)
+	(junction
 		(at 173.99 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4696,6 +4708,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "766714ce-16a8-44bd-931d-a33f77ed951a")
+	)
+	(junction
+		(at 250.19 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77517c6f-8a3d-4048-a8d6-6c1296bf8e7c")
 	)
 	(junction
 		(at 92.71 62.23)
@@ -4827,6 +4845,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 88.9) (xy 251.46 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03ecc774-fb9a-462f-9263-3eccf7c7b6dd")
+	)
+	(wire
+		(pts
 			(xy 92.71 60.96) (xy 92.71 62.23)
 		)
 		(stroke
@@ -4844,16 +4872,6 @@
 			(type default)
 		)
 		(uuid "0a0ec16a-9ecd-4e35-b6a0-37540a21c2cc")
-	)
-	(wire
-		(pts
-			(xy 217.17 99.06) (xy 209.55 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0aa8c7ae-e50a-47e2-948c-2ebe955133a6")
 	)
 	(wire
 		(pts
@@ -4884,16 +4902,6 @@
 			(type default)
 		)
 		(uuid "11f9632e-5c2c-4dd0-bef3-02d9e695d410")
-	)
-	(wire
-		(pts
-			(xy 217.17 101.6) (xy 209.55 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "120500c4-d3f5-4115-8f49-7b79093e6100")
 	)
 	(wire
 		(pts
@@ -5027,6 +5035,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 87.63) (xy 250.19 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33c82173-e678-46a2-b66d-a5b3366d7683")
+	)
+	(wire
+		(pts
 			(xy 217.17 68.58) (xy 209.55 68.58)
 		)
 		(stroke
@@ -5127,6 +5145,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 86.36) (xy 250.19 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "459d3492-bbd2-4a13-8606-eaab22f04ea8")
+	)
+	(wire
+		(pts
 			(xy 119.38 25.4) (xy 119.38 26.67)
 		)
 		(stroke
@@ -5184,6 +5212,16 @@
 			(type default)
 		)
 		(uuid "4c51f8cb-b587-474b-b07f-0d74f959ee5a")
+	)
+	(wire
+		(pts
+			(xy 248.92 93.98) (xy 248.92 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c959896-9a69-4dcc-a293-9c057f1246e7")
 	)
 	(wire
 		(pts
@@ -5417,6 +5455,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 101.6) (xy 255.27 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "789f01b1-2b47-41c2-82bf-a2ee0912ec50")
+	)
+	(wire
+		(pts
 			(xy 171.45 53.34) (xy 171.45 55.88)
 		)
 		(stroke
@@ -5574,6 +5622,16 @@
 			(type default)
 		)
 		(uuid "8b240693-5d81-4f78-b057-b7ad3dcc5b31")
+	)
+	(wire
+		(pts
+			(xy 248.92 87.63) (xy 248.92 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d7b107a-5fc7-43a8-9169-11c6fa62e81a")
 	)
 	(wire
 		(pts
@@ -5767,6 +5825,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 93.98) (xy 251.46 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4e4d671-ccf2-46e1-8aa4-5a7d302a459a")
+	)
+	(wire
+		(pts
 			(xy 80.01 151.13) (xy 86.36 151.13)
 		)
 		(stroke
@@ -5824,6 +5892,16 @@
 			(type default)
 		)
 		(uuid "c76d0445-f4ea-4b33-93f0-d4ac3e4f5af0")
+	)
+	(wire
+		(pts
+			(xy 248.92 99.06) (xy 255.27 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9311f1c-a6c6-451f-a9da-2253feaaea60")
 	)
 	(wire
 		(pts
@@ -5947,6 +6025,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 87.63) (xy 248.92 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d704b444-ed07-41ea-bba9-d374556d669e")
+	)
+	(wire
+		(pts
 			(xy 182.88 149.86) (xy 182.88 148.59)
 		)
 		(stroke
@@ -6007,6 +6095,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 101.6) (xy 251.46 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e79baae1-99c8-4f07-9f78-6a053c597e62")
+	)
+	(wire
+		(pts
 			(xy 209.55 83.82) (xy 232.41 83.82)
 		)
 		(stroke
@@ -6054,6 +6152,16 @@
 			(type default)
 		)
 		(uuid "ec81afc7-575e-4838-85c0-f74615930e23")
+	)
+	(wire
+		(pts
+			(xy 209.55 99.06) (xy 248.92 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed48531f-5535-4d86-8ef2-512e0a514aab")
 	)
 	(wire
 		(pts
@@ -6337,7 +6445,7 @@
 	)
 	(global_label "SDA"
 		(shape bidirectional)
-		(at 217.17 99.06 0)
+		(at 255.27 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6347,7 +6455,7 @@
 		)
 		(uuid "2f899a07-a8b0-4332-89c3-09e112235b4b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.8346 99.06 0)
+			(at 262.9346 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6385,7 +6493,7 @@
 	)
 	(global_label "SCL"
 		(shape output)
-		(at 217.17 101.6 0)
+		(at 255.27 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6395,7 +6503,7 @@
 		)
 		(uuid "49d91625-a6a8-4c53-8b36-e94e249e305c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.6628 101.6 0)
+			(at 261.7628 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8812,7 +8920,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 139.7 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -9521,6 +9629,132 @@
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 248.92 91.44 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3701d2d4-0cf7-48b4-9429-e96407814267")
+		(property "Reference" "R27"
+			(at 246.38 90.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 246.38 92.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 248.92 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 248.92 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 248.92 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 248.92 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 248.92 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 248.92 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa386bab-92bd-45d9-9894-ce0c9a9cfb3a")
+		)
+		(pin "2"
+			(uuid "cac8c39a-4085-4e52-8c55-c7f064a2b943")
+		)
+		(instances
+			(project "asdt-mark-2"
+				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -10726,6 +10960,132 @@
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
 					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 251.46 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67a677b6-f584-4ca2-a91d-b4a30a878cb7")
+		(property "Reference" "R26"
+			(at 254 90.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 254 92.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 251.46 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 251.46 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 251.46 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 251.46 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 251.46 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 251.46 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "44e4ac6f-adee-4083-b61b-58652b89ccd0")
+		)
+		(pin "2"
+			(uuid "1f6806e7-830e-4742-a079-1305a35eb2e1")
+		)
+		(instances
+			(project "asdt-mark-2"
+				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -13199,6 +13559,84 @@
 			(project "asdt-mark-2"
 				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 250.19 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af41af61-9391-4811-89ab-de5b9bd5c7a8")
+		(property "Reference" "#PWR088"
+			(at 250.19 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 250.19 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 250.19 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "387cec82-2e14-48bf-8bea-c263f9fb4edb")
+		)
+		(instances
+			(project "asdt-mark-2"
+				(path "/5368797f-237a-4d14-9f10-8bf9eb89d255/43c51da1-563a-4e0d-ba2d-ee6db7c0cebc"
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
